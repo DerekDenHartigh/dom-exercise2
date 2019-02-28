@@ -5,10 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Dom Exercise 2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS Reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+
 </head>
 <body>
-    
+    <div id="produce-sort-box">
+        <div class="form-row" id="first-row">Name: 
+            <input id="input-area" type="text" name="Produce item input" value="" placeholder="Input Produce Here">
+        </div>
+        <div class="form-row" id="second-row">Type of Produce: 
+            <input id="fruit-button" type="radio" name="Produce classification" value="Fruit">Fruit  
+            <input id="vegetable-button" type="radio" name="Produce classification" value="Vegetable">Vegetable
+        </div>
+        <input id="submit-classification" type="button" value="Classify!">
+    </div>
+    <div id="list-box">
+    <div id="fruit-list-box">
+        Fruits:
+        <ul class="list" id="fruit-list">
+
+        </ul>
+    </div>
+    <div id="vegetable-list-box">
+        Vegetables:
+        <ul class="list" id="vegetable-list">
+            
+        </ul>
+    </div>
+    </div>
+<script src="main.js"></script>
 </body>
 </html>
